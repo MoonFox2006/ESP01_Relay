@@ -1,7 +1,7 @@
 #ifdef ESP8266
 #include <pgmspace.h>
 #endif
-#include "Base64.h"
+#include "SimpleBase64.h"
 
 static bool isBase64(char c) {
   return ((c >= 'A') && (c <= 'Z')) || ((c >= 'a') && (c <= 'z')) || ((c >= '0') && (c <= '9')) || (c == '+') || (c == '/');
