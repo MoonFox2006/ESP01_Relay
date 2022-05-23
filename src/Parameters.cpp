@@ -15,7 +15,7 @@
 #ifdef ESP8266
 #include "StrUtils.h"
 #endif
-#include "Base64.h"
+#include "SimpleBase64.h"
 
 #ifdef ESP32
 static const char TAG[] = "Parameters";
